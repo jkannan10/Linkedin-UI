@@ -1,0 +1,28 @@
+.contact-item .avatar {
+  width: 50px;
+  height: 50px;
+}
+
+.contact-item .details .name {
+  font-size: 1rem;
+}
+
+.contact-item .details .title {
+  font-size: 0.875rem;
+}
+
+.contact-item .details .created-date {
+  font-size: 0.75rem;
+}
+
+.contactButton {
+  width: 150px;
+  border-radius: 20px;
+  border: 1px solid #0a66c2;
+  color: #0a66c2;
+  font-weight: bold;
+  background-color: white;
+}
+.contactButton:hover {
+  background-color: #b3d2f1;
+}

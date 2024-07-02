@@ -1,0 +1,24 @@
+.follower-item .avatar {
+  width: 50px;
+  height: 50px;
+}
+
+.follower-item .details .name {
+  font-size: 1rem;
+}
+
+.follower-item .details .title {
+  font-size: 0.875rem;
+}
+
+.followButton {
+  font-size: small;
+  font-weight: bold;
+  padding: 3px;
+  width: 85px;
+  border-radius: 10px;
+  background-color: white;
+}
+.followButton:hover {
+  background-color: rgb(208, 208, 208);
+}

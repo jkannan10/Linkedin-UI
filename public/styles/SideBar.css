@@ -1,0 +1,77 @@
+.sidebar {
+  width: 100%;
+  background-color: white;
+  font-size: small;
+}
+
+.sidebar h6 {
+  font-weight: bold;
+}
+
+.sidebar ul {
+  padding-left: 0;
+}
+
+.sidebar li {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.sidebar .text-primary {
+  color: #0a66c2;
+  cursor: pointer;
+}
+
+.sidebar .btn-outline-primary {
+  border-color: #0a66c2;
+  color: #0a66c2;
+}
+
+.sidebar .btn-outline-primary:hover {
+  background-color: #0a66c2;
+  color: white;
+}
+
+.sidebar {
+  font-size: 12px;
+}
+
+.sidebar h6 {
+  font-size: 14px;
+}
+
+.sidebar ul {
+  padding-left: 0;
+}
+
+.sidebar li {
+  font-size: 12px;
+}
+
+.sidebar .btn {
+  font-size: 12px;
+}
+
+.ButtonGroup:hover {
+  background-color: #f0ecec;
+  color: black;
+}
+
+.ButtonGroup {
+  color: grey;
+  font-weight: bold;
+}
+
+.seeall:hover {
+  background-color: #f0ecec;
+}
+
+.groupsHead {
+  font-size: small;
+  color: #0a66c2;
+}
+
+.discover:hover {
+  background-color: #f0ecec;
+}

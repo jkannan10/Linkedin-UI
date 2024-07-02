@@ -1,0 +1,27 @@
+.messageTypes {
+  margin-top: 5px;
+  text-align: center;
+  padding: 5px;
+  width: 50%;
+  white-space: nowrap;
+}
+.grpBtn {
+  background-color: white;
+  font-weight: bold;
+  color: #0a66c2;
+  border: 1px solid #0a66c2;
+  border-radius: 10px;
+  padding: 3px;
+  width: 180px;
+}
+.grpBtn:hover {
+  background-color: #b1d0f0;
+}
+
+.members {
+  font-size: small;
+}
+.avatar {
+  width: 80px;
+  height: 80px;
+}

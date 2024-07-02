@@ -1,0 +1,48 @@
+.connection-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin-right: 15px;
+}
+
+.details {
+  flex-grow: 1;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.title {
+  color: #555;
+  font-size: small;
+}
+
+.connected-time {
+  color: #888;
+  font-size: 12px;
+}
+
+.message-button {
+  font-weight: bold;
+  background-color: white;
+  color: #0a66c2;
+  border: 1px solid #0a66c2;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 100px;
+  font-size: small;
+}
+
+.message-button:hover {
+  background-color: #cadef2;
+}

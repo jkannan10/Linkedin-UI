@@ -1,0 +1,71 @@
+.profileCard {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.banner {
+  height: 50px;
+}
+.banner img {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.ProfileImg {
+  margin-top: 0px;
+}
+.profile-img {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  margin-top: -20px;
+}
+.bio {
+  font-size: medium;
+}
+
+.stats {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.promotion {
+  font-size: small;
+  background-color: white;
+}
+
+.promotion:hover {
+  background-color: #f0ecec;
+}
+
+.savedBtn {
+  border: none;
+  background-color: inherit;
+}
+.BtnSave:hover {
+  background-color: #f0ecec;
+}
+.savedBtn:hover {
+  background-color: #f0ecec;
+}
+.Views {
+  font-size: small;
+  font-weight: bold;
+}
+.Views:hover {
+  background-color: #f0ecec;
+}
+
+.count {
+  color: #0a66c2;
+}
+
+.profilename {
+  font-size: small;
+  font-weight: bold;
+}
+
+.bio {
+  font-size: small;
+}

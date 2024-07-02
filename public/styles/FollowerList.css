@@ -1,0 +1,33 @@
+.followers-list {
+  max-width: 100%;
+  margin: 0 auto;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 0;
+}
+
+.followers-list h5 {
+  font-size: medium;
+  padding: 15px;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.messageTypes {
+  text-align: center;
+  width: 10%;
+  cursor: pointer;
+  font-size: small;
+}
+
+.messageTypes.active {
+  color: green;
+  border-bottom: 2px solid green;
+}
+
+@media (max-width: 600px) {
+  .followers-list {
+    border: none;
+    border-radius: 0;
+  }
+}

@@ -1,0 +1,26 @@
+.ShowMoreBtn {
+  border: none;
+  background-color: inherit;
+  color: black;
+  font-weight: bold;
+  font-size: small;
+  padding: 5px;
+}
+.ShowMoreBtn:hover {
+  background-color: #f0ecec;
+}
+
+.createEvent {
+  border: 1px solid #0a66c2;
+  width: 200px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: white;
+  font-weight: bold;
+  font-size: medium;
+  color: #0a66c2;
+}
+
+.createEvent:hover {
+  background-color: #b4d3f3;
+}

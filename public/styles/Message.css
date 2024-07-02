@@ -1,0 +1,97 @@
+.messaging-container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 1px solid #ccc;
+
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  transition: transform 0.3s ease;
+}
+
+.messaging-container.expanded {
+  transform: translateY(-1px);
+  min-height: 500px;
+}
+
+.messaging-header {
+  border-top-left-radius: 30%;
+  border-top-right-radius: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.messageImage {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.messaging-body {
+  padding: 10px;
+  height: auto;
+}
+
+.messaging-body input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.tabs {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.tab {
+  cursor: pointer;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+.tab.active {
+  color: green;
+  border-bottom: 2px solid green;
+}
+
+.messages .message {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.messages .message img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.messages .message div span {
+  font-weight: bold;
+}
+
+.messages .message div p {
+  margin: 0;
+  color: gray;
+}
+
+.messages .message div small {
+  color: gray;
+}
+
+.TextM {
+  font-size: small;
+}
+
+.TextMessaging {
+  font-size: small;
+}

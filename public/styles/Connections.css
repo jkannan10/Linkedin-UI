@@ -1,0 +1,23 @@
+.connections-list {
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.spanSort,
+.searchtext {
+  font-size: small;
+}
+.TextInput {
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+@media (max-width: 600px) {
+  .connections-list {
+    border: none;
+    border-radius: 0;
+  }
+}

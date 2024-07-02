@@ -1,0 +1,36 @@
+.image {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.inputTag {
+  width: 400px;
+  height: 50px;
+  border: 1px solid grey;
+  border-radius: 20px;
+  padding-left: 15px;
+}
+
+.informationContainer {
+  background-color: #f0ecec;
+  border-radius: 10px;
+}
+
+.spanStyle {
+  margin-top: -15px;
+}
+
+.comment {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.d-flex.align-items-center.mb-3 .me-2 {
+  display: flex;
+  align-items: center;
+}
+
+.d-flex.align-items-center.mb-3 .me-2 img {
+  margin-right: 10px;
+}

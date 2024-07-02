@@ -1,0 +1,45 @@
+.topStories {
+  width: 320px;
+  background-color: white;
+}
+.HeaderStory {
+  margin-top: -10px;
+  margin-bottom: -6px;
+}
+
+.stories {
+  position: relative;
+  padding: 0px 0px 0px 12px;
+}
+.stories:hover {
+  background-color: #f0ecec;
+}
+
+.showMoreStories {
+  font-size: small;
+  border: none;
+  display: inline-block;
+  background-color: white;
+}
+.newSpan {
+  border-radius: 5px;
+  padding: 1px 8px;
+  background-color: #fce3bc;
+}
+
+.games {
+  margin-bottom: -10px;
+  font-size: small;
+}
+
+.gamesSpan {
+  font-size: x-small;
+}
+
+.Games:hover {
+  background-color: #f0ecec;
+}
+
+.news {
+  margin-top: -10px;
+}

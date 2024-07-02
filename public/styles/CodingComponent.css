@@ -1,0 +1,47 @@
+.coding-card {
+  margin: 20px auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+
+.card-header {
+  background-color: white;
+}
+.card-header img {
+  width: 40px;
+  height: 40px;
+}
+
+.card-header div {
+  margin-left: 10px;
+}
+
+.image-container {
+  margin: 10px 0;
+}
+
+.card-footer {
+  font-size: 14px;
+}
+
+.card-footer div {
+  font-size: 14px;
+}
+
+.customBtn {
+  border: none;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.customBtn:hover {
+  background-color: #f0ecec;
+}
+
+.GroupHeading {
+  font-size: medium;
+  font-weight: bold;
+}

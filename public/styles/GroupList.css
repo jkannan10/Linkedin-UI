@@ -1,0 +1,9 @@
+.messageType {
+  font-size: small;
+  text-align: center;
+}
+
+.messageType.active {
+  color: green;
+  border-bottom: 2px solid green;
+}
