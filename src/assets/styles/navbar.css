@@ -40,12 +40,12 @@
 
 .searchBar {
   margin-top: -20px;
-  width: 300px;
+  width: 310px;
   height: 38px;
   background-color: #edf3f8;
   border-radius: 3px;
   padding: 5px;
-  margin-left: 10px;
+  margin-left: 7px;
   display: flex;
   align-items: center;
 }
@@ -72,8 +72,12 @@
   width: 30px;
   height: 30px;
   border-radius: 50%;
+  margin-top: -7px;
 }
-
+.homeIcon {
+  height: 27px;
+  width: 27px;
+}
 .activeHome,
 .activeJob,
 .activeNotify,
@@ -88,6 +92,7 @@
 
 .NavBar {
   font-size: 1.5rem;
+  margin-left: 0px;
 }
 
 .notification-indicator {

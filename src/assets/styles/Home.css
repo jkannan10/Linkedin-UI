@@ -1,6 +1,72 @@
 .SpecialBorder {
+  width: 87%;
   border-bottom: 1px solid grey;
+  margin-top: -20px;
+  margin-left: -4px;
+  margin-bottom: -10px;
 }
+
+.Content {
+  margin-left: -6px;
+  margin-top: -15px;
+}
+
 .ContentHolder {
   width: 37%;
+}
+
+.Story {
+  margin-left: -15px;
+}
+@media (max-width: 1200px) {
+  .SpecialBorder {
+    width: 80%;
+  }
+
+  .ContentHolder {
+    width: 50%;
+  }
+}
+
+@media (max-width: 992px) {
+  .SpecialBorder {
+    width: 75%;
+  }
+
+  .ContentHolder {
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  .SpecialBorder {
+    width: 70%;
+    margin-left: 0;
+  }
+
+  .ContentHolder {
+    width: 80%;
+  }
+
+  .SpecialSort {
+    font-size: smaller;
+    margin-left: 5px;
+    margin-top: -5px;
+  }
+}
+
+@media (max-width: 576px) {
+  .SpecialBorder {
+    width: 60%;
+  }
+
+  .ContentHolder {
+    width: 100%;
+  }
+
+  .SpecialSort {
+    font-size: smaller;
+    margin-left: 0;
+    margin-top: 0;
+  }
 }

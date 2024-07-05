@@ -13,21 +13,30 @@ const PromotionAD = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="row">
-              <span className="text-small text-secondary">
-                About &nbsp;&nbsp; Accessibility &nbsp; &nbsp; Help Center{" "}
-                <br></br>&nbsp;&nbsp; Privacy & Terms
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ad Choices
+              <span className="row text-small text-secondary text-start">
+                <span className="p-1">
+                  About &nbsp;&nbsp; Accessibility &nbsp; &nbsp; Help Center
+                </span>
+                <br></br>
+                <span className="pb-3">
+                  &nbsp;&nbsp; Privacy & Terms
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ad Choices
+                </span>
+                <span className="row text-small text-secondary secondRow">
+                  <span className="p-1 ADD">
+                    &nbsp;Advertising &nbsp;&nbsp;&nbsp;&nbsp; Business Services
+                  </span>
+
+                  <span>
+                    &nbsp;&nbsp;&nbsp;&nbsp;Get the LinkedIn app
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;More
+                  </span>
+                </span>
               </span>
             </div>
-            <div className="row">
-              <span className="text-small text-secondary">
-                &nbsp;Advertising &nbsp;&nbsp;&nbsp;&nbsp; Business Services{" "}
-                <br /> &nbsp;&nbsp;&nbsp;&nbsp;Get the LinkedIn app
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;More
-              </span>
-            </div>
-            <div className="row ">
-              <div className="col mt-1 align-items-center">
+            <div className="row"></div>
+            <div className="row mt-2">
+              <div className="col mt-1 align-items-center ml-3">
                 <img
                   src="https://static.licdn.com/aero-v1/sc/h/aahlc8ivbnmk0t3eyz8as5gvr"
                   alt="LinkedIn Logo"

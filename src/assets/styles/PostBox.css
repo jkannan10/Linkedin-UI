@@ -1,14 +1,22 @@
 .post-box {
-  width: 100%;
+  border-radius: 9px;
+  margin-left: -6px;
+  height: auto;
+  min-height: 125px;
+  overflow: hidden;
+  position: relative;
+  width: 620px;
 }
 
 .avatar {
-  width: 60px;
-  height: 60px;
+  width: 65px;
+  height: 65px;
 }
 .Write {
+  width: 10%;
   height: 50px;
-  padding-left: 20px;
+  padding-left: 30px;
+  margin-right: 10px;
   padding-top: 13px;
   border-radius: 20px;
   margin-left: -15px;
@@ -44,8 +52,11 @@
 .spanPost {
   font-size: medium;
   font-weight: 600;
+  margin-left: -4px;
 }
-
+.MediaandEvent {
+  padding: 1rem 2rem;
+}
 .MediaandEvent:hover {
   background-color: #f0ecec;
 }

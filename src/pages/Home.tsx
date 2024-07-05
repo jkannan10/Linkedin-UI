@@ -26,7 +26,7 @@ const Home: React.FC = () => {
   const [contents, setContents] = useState<Content[]>([]);
   return (
     <div className="row justify-content-center">
-      <div className="col-7 col-md-2 mb-2 " style={{ marginLeft: "200px" }}>
+      <div className="col-7 col-md-2 mb-2 " style={{ marginLeft: "180px" }}>
         <ProfileCard />
         <Sidebar />
       </div>
@@ -34,81 +34,84 @@ const Home: React.FC = () => {
         <PostBox contents={contents} setContents={setContents} />
         <div className="row" style={{ width: "100%" }}>
           <div className="d-flex align-items-center justify-content-between">
-            <div className="SpecialBorder w-100"></div>
+            <div className="SpecialBorder col-11"></div>
             <span
               style={{
                 position: "relative",
                 whiteSpace: "nowrap",
                 fontSize: "small",
-                marginLeft: "15px",
+                marginLeft: "10px",
+                marginTop: "-10px",
               }}
               className="SpecialSort"
             >
-              Sort by:<span className="fw-bold"> Top &#x25BC;</span>
+              Sort by:<span className="fw-bold"> Top &#x25BC; </span>
             </span>
           </div>
         </div>
-        {contents.map((content, index) => (
-          <PostComponent
-            key={index}
+        <div className="Content">
+          {contents.map((content, index) => (
+            <PostComponent
+              key={index}
+              image={dev3}
+              header={"Name"}
+              name="StorySpinner"
+              year="2nd"
+              postText={content.post}
+            />
+          ))}
+          <CodingComponent
             image={dev3}
-            header={"Name"}
-            name="StorySpinner"
-            year="2nd"
-            postText={content.post}
+            header={"DevOps"}
+            name={"StorySpinner"}
+            year={"2nd"}
+            post={poster2}
           />
-        ))}
-        <CodingComponent
-          image={dev3}
-          header={"DevOps"}
-          name={"StorySpinner"}
-          year={"2nd"}
-          post={poster2}
-        />
-        <CodingComponent
-          image={dev4}
-          header={"AIExpert123"}
-          name={"NutritionNinja"}
-          year={"3rd"}
-          post={poster1}
-        />
-        <VideoComponent url="https://www.youtube.com/embed/_w6N_nplmAw" />
-        <CodingComponent
-          image={dev6}
-          header={"TechGuru_ML"}
-          name={"BookWorm"}
-          year={"3rd"}
-          post={poster3}
-        />
+          <CodingComponent
+            image={dev4}
+            header={"AIExpert123"}
+            name={"NutritionNinja"}
+            year={"3rd"}
+            post={poster1}
+          />
+          <VideoComponent url="https://www.youtube.com/embed/_w6N_nplmAw" />
+          <CodingComponent
+            image={dev6}
+            header={"TechGuru_ML"}
+            name={"BookWorm"}
+            year={"3rd"}
+            post={poster3}
+          />
 
-        <VideoComponent url="https://www.youtube.com/embed/FYErehuSuuw" />
-        <CodingComponent
-          image={dev5}
-          header={"CodeMaster_AI"}
-          name={"ContentCreator_Pro"}
-          year={"sde@ZOHO"}
-          post={poster4}
-        />
-        <VideoComponent url="https://www.youtube.com/embed/_w6N_nplmAw" />
-        <CodingComponent
-          image={dev3}
-          header={"InnovationSeeker"}
-          name={"MarketingMaven"}
-          year={"2nd"}
-          post={poster1}
-        />
+          <VideoComponent url="https://www.youtube.com/embed/FYErehuSuuw" />
+          <CodingComponent
+            image={dev5}
+            header={"CodeMaster_AI"}
+            name={"ContentCreator_Pro"}
+            year={"sde@ZOHO"}
+            post={poster4}
+          />
+          <VideoComponent url="https://www.youtube.com/embed/_w6N_nplmAw" />
+          <CodingComponent
+            image={dev3}
+            header={"InnovationSeeker"}
+            name={"MarketingMaven"}
+            year={"2nd"}
+            post={poster1}
+          />
 
-        <VideoComponent url="https://www.youtube.com/embed/_w6N_nplmAw" />
-        <CodingComponent
-          image={dev6}
-          header={"DevOps"}
-          name={"asjbx"}
-          year={"2nd"}
-          post={poster3}
-        />
+          <VideoComponent url="https://www.youtube.com/embed/_w6N_nplmAw" />
+          <CodingComponent
+            image={dev6}
+            header={"DevOps"}
+            name={"asjbx"}
+            year={"2nd"}
+            post={poster3}
+          />
+        </div>
       </div>
 
-      <div className="col-10 col-md-4 d-flex flex-column justify-content-between h-100">
+      <div className="col-10 col-md-4 d-flex flex-column justify-content-between h-100 Story">
         <div className="mb-5">
           <TopStories />
           <div className="mt-2 footer">

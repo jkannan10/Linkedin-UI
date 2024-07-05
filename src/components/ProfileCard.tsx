@@ -7,31 +7,31 @@ import { faBookmark } from "@fortawesome/free-solid-svg-icons";
 
 const ProfileCard: React.FC = () => {
   return (
-    <div className="border rounded profileCard mb-3 bg-white">
+    <div className="border profileCard mb-3 bg-white">
       <div className="banner">
-        <img src={logo} alt="banner" className="img-fluid rounded w-100" />
+        <img src={logo} alt="banner" className="img-fluid w-100" />
       </div>
       <div className="text-center ProfileImg">
         <img src={dev} alt="profile" className="rounded-circle profile-img" />
       </div>
       <div className="text-center p-1">
-        <h5 className="mt-2 mb-1 profilename">AbsaklcnR</h5>
-        <p className="text-muted mb-2 bio">
+        <h5 className="mt-4 mb-1 profilename">AbsaklcnR</h5>
+        <p className="text-muted mb-2 bio p-1">
           Full Stack Intern || Kce || JAVA || C || React || Express{" "}
         </p>
       </div>
       <div className="stats d-flex flex-column">
-        <div className="d-flex justify-content-between align-items-center py-2 px-3 Views">
+        <div className="d-flex justify-content-between align-items-center py-1 px-3 Views">
           <div>
-            <p className="me-3 mb-0 text-secondary ">Profile Views</p>
+            <p className="me-3 mb-0 text-secondary ">Profile views</p>
           </div>
           <div>
             <p className=" mb-0 count">119</p>
           </div>
         </div>
-        <div className="d-flex justify-content-between align-items-center py-2 px-3 Views">
+        <div className="d-flex justify-content-between align-items-center py-1 px-3 Views">
           <div>
-            <p className="me-3 mb-0 text-secondary">Post Impressions</p>
+            <p className="me-3 mb-0 text-secondary">Post impressions</p>
           </div>
           <div>
             <p className=" mb-0 count">85</p>
@@ -39,15 +39,14 @@ const ProfileCard: React.FC = () => {
         </div>
       </div>
 
-      <div className="promotion text-center border-bottom p-2 ">
+      <div className="promotion border-bottom p-3 ">
         <p className="">Strengthen your profile with an AI writing assistant</p>
-        <p className="fw-bold text-center p-2">
-          Get hired faster. Try Premium free.
-        </p>
+        <p className="fw-bold getHire">Get hired faster. Try Premium free.</p>
       </div>
-      <div className="text-center py-2 BtnSave">
+      <div className="text-start ps-3 py-2 BtnSave">
         <button className="savedBtn">
-          <FontAwesomeIcon icon={faBookmark} /> Saved items
+          <FontAwesomeIcon icon={faBookmark} className="text-secondary" />
+          <span className="ms-2">Saved items</span>
         </button>
       </div>
     </div>

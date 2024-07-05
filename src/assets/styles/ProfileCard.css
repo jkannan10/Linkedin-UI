@@ -1,22 +1,20 @@
 .profileCard {
-  width: 100%;
+  width: 96%;
   margin: 0 auto;
+  border-radius: 10px;
 }
 
 .banner {
   height: 50px;
 }
-.banner img {
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-}
+
 .ProfileImg {
-  margin-top: 0px;
+  margin-top: -20px;
 }
 .profile-img {
   position: relative;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   border-radius: 20px;
   margin-top: -20px;
 }
@@ -31,6 +29,7 @@
 }
 
 .promotion {
+  height: 110px;
   font-size: small;
   background-color: white;
 }
@@ -38,10 +37,14 @@
 .promotion:hover {
   background-color: #f0ecec;
 }
-
+.getHire {
+  margin-top: -10px;
+}
 .savedBtn {
   border: none;
   background-color: inherit;
+  font-size: small;
+  font-weight: 600;
 }
 .BtnSave:hover {
   background-color: #f0ecec;
@@ -50,7 +53,7 @@
   background-color: #f0ecec;
 }
 .Views {
-  font-size: small;
+  font-size: 13px;
   font-weight: bold;
 }
 .Views:hover {

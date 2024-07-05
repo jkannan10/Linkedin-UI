@@ -1,6 +1,10 @@
 .topStories {
-  width: 320px;
+  width: 330px;
   background-color: white;
+  border-radius: 9px;
+}
+.infoCircle {
+  margin-top: -5px;
 }
 .HeaderStory {
   margin-top: -10px;
@@ -10,16 +14,18 @@
 .stories {
   position: relative;
   padding: 0px 0px 0px 12px;
+  cursor: pointer;
 }
 .stories:hover {
   background-color: #f0ecec;
 }
 
 .showMoreStories {
-  font-size: small;
+  font-size: 14px;
   border: none;
   display: inline-block;
   background-color: white;
+  margin-left: -5px;
 }
 .newSpan {
   border-radius: 5px;
@@ -30,6 +36,10 @@
 .games {
   margin-bottom: -10px;
   font-size: small;
+  cursor: pointer;
+}
+.gamename {
+  font-size: 16px;
 }
 
 .gamesSpan {

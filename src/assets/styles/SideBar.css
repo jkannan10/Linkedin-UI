@@ -1,36 +1,10 @@
 .sidebar {
-  width: 100%;
+  margin-left: 8px;
+  width: 96%;
   background-color: white;
   font-size: small;
-}
-
-.sidebar h6 {
-  font-weight: bold;
-}
-
-.sidebar ul {
-  padding-left: 0;
-}
-
-.sidebar li {
-  display: flex;
-  align-items: center;
-  font-size: 14px;
-}
-
-.sidebar .text-primary {
-  color: #0a66c2;
-  cursor: pointer;
-}
-
-.sidebar .btn-outline-primary {
-  border-color: #0a66c2;
-  color: #0a66c2;
-}
-
-.sidebar .btn-outline-primary:hover {
-  background-color: #0a66c2;
-  color: white;
+  border-radius: 9px;
+  margin-top: -10px;
 }
 
 .sidebar {
@@ -42,34 +16,51 @@
 }
 
 .sidebar ul {
-  padding-left: 0;
+  width: 100%;
 }
 
 .sidebar li {
-  font-size: 12px;
+  width: 100%;
+  font-size: 13px;
+  cursor: pointer;
 }
 
 .sidebar .btn {
   font-size: 12px;
 }
 
+.groupsHead {
+  font-size: small;
+  color: #0a66c2;
+}
+
+.ButtonGroup,
+.seeall {
+  color: grey;
+  font-weight: bold;
+}
+.discover {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.discoverText {
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  background-color: inherit;
+}
+.groupsHead:hover {
+  text-decoration: underline;
+}
 .ButtonGroup:hover {
   background-color: #f0ecec;
   color: black;
-}
-
-.ButtonGroup {
-  color: grey;
-  font-weight: bold;
+  padding: 0;
 }
 
 .seeall:hover {
   background-color: #f0ecec;
-}
-
-.groupsHead {
-  font-size: small;
-  color: #0a66c2;
 }
 
 .discover:hover {

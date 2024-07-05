@@ -1,9 +1,11 @@
 .coding-card {
-  margin: 20px auto;
+  margin-top: 20px;
+  margin-bottom: -10px;
   border: 1px solid #ddd;
-  border-radius: 8px;
+  border-radius: 9px;
   overflow: hidden;
   position: relative;
+  width: 100%;
 }
 
 .card-header {

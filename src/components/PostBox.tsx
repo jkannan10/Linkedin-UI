@@ -53,7 +53,7 @@ const PostBox: React.FC<Contentprops> = ({ contents, setContents }) => {
   };
 
   return (
-    <div className="container post-box border rounded p-3 mb-3 bg-white">
+    <div className="container border post-box  p-3 mb-3 bg-white">
       <div className="row mb-2 align-items-center">
         <div className="col-auto">
           <img src={dev} alt="User Avatar" className="rounded-circle avatar" />
@@ -126,23 +126,23 @@ const PostBox: React.FC<Contentprops> = ({ contents, setContents }) => {
           </div>
         </Box>
       </Modal>
-      <div className="row justify-content-around bg-white MediaandEvent">
+      <div className="row justify-content-around bg-white">
         <div className="col-auto">
-          <button className="btn d-flex align-items-center">
+          <button className="btn d-flex align-items-center MediaandEvent p-2">
             <img src={imgeIcon} alt="Media" className="icon" />
-            <span className="ml-2 spanPost">Media</span>
+            <span className=" spanPost">Media</span>
           </button>
         </div>
         <div className="col-auto">
-          <button className="btn d-flex align-items-center">
+          <button className="btn d-flex align-items-center MediaandEvent p-2">
             <img src={calenderIcon} alt="Event" className="icon" />
-            <span className="ml-2 spanPost">Event</span>
+            <span className="spanPost">Contribute expertise</span>
           </button>
         </div>
         <div className="col-auto">
-          <button className="btn d-flex align-items-center">
+          <button className="btn d-flex align-items-center MediaandEvent p-2">
             <img src={articleIcon} alt="Write article" className="icon" />
-            <span className="ml-2 spanPost">Write article</span>
+            <span className="spanPost">Write article</span>
           </button>
         </div>
       </div>

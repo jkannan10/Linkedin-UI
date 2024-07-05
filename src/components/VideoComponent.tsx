@@ -19,7 +19,7 @@ const VideoComponent: React.FC<Url> = ({ url }) => {
   const [comment, setComment] = useState<boolean>(false);
 
   return (
-    <div className="card coding-card w-100">
+    <div className="card coding-card">
       <div className="card-header d-flex align-items-center">
         <img src={dev} className="rounded-circle mr-3" alt="profile" />
         <div>

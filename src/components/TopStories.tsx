@@ -12,7 +12,7 @@ const TopStories = () => {
   const [open, setOpen] = useState<boolean>(false);
   return (
     <div className="container">
-      <div className="topStories p-3  border rounded ">
+      <div className="topStories p-3  border">
         <div className="row d-flex mt-2">
           <div className="">
             <div className="">
@@ -20,7 +20,7 @@ const TopStories = () => {
                 <div className="">
                   <p className="fw-bold fs-4 news">LinkedIn News</p>
                 </div>
-                <div className="">
+                <div className="infoCircle">
                   <FontAwesomeIcon icon={faInfoCircle} />
                 </div>
               </div>
@@ -168,7 +168,7 @@ const TopStories = () => {
               </div>
 
               <div className="games">
-                <p className="fw-bold">
+                <p className="fw-bold gamename">
                   Crossclimb<span className="fw-normal ms-2">#55</span>
                   <p className="fw-normal gamesSpan">Unlock a trivia ladder</p>
                 </p>
@@ -185,7 +185,7 @@ const TopStories = () => {
               </div>
 
               <div className="games">
-                <p className="fw-bold">
+                <p className="fw-bold gamename">
                   Queens<span className="fw-normal ms-2">#55</span>
                   <p className="fw-normal gamesSpan">Crown each region</p>
                 </p>
@@ -201,7 +201,7 @@ const TopStories = () => {
               </div>
 
               <div className="games">
-                <p className="fw-bold">
+                <p className="fw-bold gamename">
                   Pinpoint<span className="fw-normal ms-2">#55</span>
                   <p className="fw-normal gamesSpan">Guess the category</p>
                 </p>

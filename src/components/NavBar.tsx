@@ -50,7 +50,7 @@ const NavBar = () => {
             >
               <FontAwesomeIcon
                 icon={faHome}
-                className={` ${
+                className={`homeIcon ${
                   activeTab === "home" ? "text-black" : "text-secondary"
                 }`}
               />
@@ -68,7 +68,7 @@ const NavBar = () => {
             >
               <FontAwesomeIcon
                 icon={faUsers}
-                className={` ${
+                className={`homeIcon ${
                   activeTab === "network" ? "text-black" : "text-secondary"
                 }`}
               />
@@ -83,7 +83,7 @@ const NavBar = () => {
             >
               <FontAwesomeIcon
                 icon={faSuitcase}
-                className={`${
+                className={` homeIcon ${
                   activeTab === "jobs" ? "text-black" : "text-secondary"
                 }`}
               />
@@ -98,7 +98,7 @@ const NavBar = () => {
             >
               <FontAwesomeIcon
                 icon={faMessage}
-                className={` ${
+                className={` homeIcon ${
                   activeTab === "message" ? "text-black" : "text-secondary"
                 }`}
               />
@@ -113,7 +113,7 @@ const NavBar = () => {
             >
               <FontAwesomeIcon
                 icon={faBell}
-                className={` ${
+                className={` homeIcon ${
                   activeTab === "notify" ? "text-black" : "text-secondary"
                 }`}
               />
